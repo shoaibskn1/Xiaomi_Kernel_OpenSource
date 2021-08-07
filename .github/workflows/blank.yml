@@ -26,7 +26,7 @@ jobs:
       with:
         arch: arm64
         compiler: gcc/9
-        defconfig: olive-perf_defconfig
+        defconfig: olive_perf_defconfig
         image: Image.gz-dtb
 
     - name: "Post build to Telegram"
