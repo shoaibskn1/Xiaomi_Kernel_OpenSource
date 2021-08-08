@@ -2,7 +2,7 @@ name: "Build"
 
 on:
   push:
-    branches: lineage-18.1
+    branches: olive-p-oss
   workflow_dispatch:
 
 jobs:
