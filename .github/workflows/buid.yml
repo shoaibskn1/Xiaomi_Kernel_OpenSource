@@ -25,7 +25,7 @@ jobs:
       id: build
       with:
         arch: arm64
-        compiler: gcc
+        compiler: gcc/4.9
         defconfig: olive-perf_defconfig
         image: Image.gz-dtb
 
